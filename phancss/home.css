@@ -1,0 +1,163 @@
+body {
+  background-image: linear-gradient(90deg, #000000, #c89116);
+}
+
+/* Thao tác với header */
+.header {
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 4fr 4fr 1fr;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 10%;
+  border-radius: 35px;
+  margin: 20px;
+}
+.logo p {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+.logo p:hover {
+  background: linear-gradient(135deg, #5efce8 10%, #736efe 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* vào phân nav */
+.nav {
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navUl {
+  display: flex;
+  gap: 50px;
+}
+.navUl a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.navUl a:hover {
+  background-image: linear-gradient(135deg, #fff720 10%, #3cd500 100%);
+}
+.fa-brands {
+  color: red;
+  margin: 5px;
+}
+.fa-solid {
+  color: black;
+  margin: 5px;
+}
+
+/* đánh vào button */
+.Sign_up {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: 10px 5px;
+}
+.Sign_up button {
+  color: White;
+  background-image: linear-gradient(90deg, #000000, #c89116);
+  padding: 10px 25px;
+  border-radius: 15px;
+  font-size: 25px;
+}
+.Sign_up button:hover {
+  background-image: linear-gradient(135deg, #fff720 10%, #3cd500 100%);
+}
+/* Làm việc với phần body */
+.body_2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 25px;
+  box-sizing: border-box;
+}
+.anhNen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.anhNen img {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  height: 40%;
+}
+
+.singer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* margin-bottom: 15px; */
+}
+.tung_vau {
+  display: flex;
+  gap: 100px;
+}
+.tung_vau img {
+  width: 25%;
+  border-radius: 15px;
+}
+.jack-trungTu {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.jack-trungTu img {
+  height: 100%;
+  border-radius: 15px;
+}
+.jack-trungTu #jack {
+  width: 25%;
+}
+.dat-G_bichPhuong {
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 50px; */
+}
+.jack-trungTu #trung_tu {
+  width: 45%;
+}
+.dat-G_bichPhuong img {
+  height: 100%;
+  border-radius: 15px;
+  margin-left: 15%;
+}
+.dat-G_bichPhuong #datG {
+  width: 45%;
+}
+.dat-G_bichPhuong #bichPhuong {
+  width: 25%;
+}
+
+/* Text */
+.vanBan {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+}
+.vanBan2,
+.vanBan4 {
+  margin-left: 15%;
+}
+.vanBan1 {
+  font-size: 4rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.common span:hover {
+  background: linear-gradient(135deg, #5efce8 10%, #736efe 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.common {
+  margin-top: 15%;
+}

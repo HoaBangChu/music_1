@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./phancss/reset.css" />
+    <link rel="stylesheet" href="./phancss/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <script src="./phanjs/home.js" defer></script>
+    <title>Music Station</title>
+  </head>
+  <body>
+    <!-- phần header -->
+    <div class="header">
+      <!-- Khối logo, mucsic station gọi chung là khối logoAll-->
+      <div class="logo">
+        <!-- Trong khối logo có khối logo và khối music station -->
+
+        <img src="./images/logo.png" alt="Logo" />
+
+        <p>Music Station</p>
+      </div>
+
+      <!-- Tiếp đến là khối nav -->
+      <div class="nav">
+        <ul class="navUl">
+          <li>
+            <a href=""> <i class="fa-solid fa-house"></i> Home</a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-music"></i>Song</a>
+          </li>
+          <li>
+            <a href=""><i class="fa-brands fa-youtube"></i> Youtube</a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-file-audio"></i>Mp3</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Nút Sign up -->
+      <div class="Sign_up">
+        <button
+          onclick="alert('Chào tình yêu nhé! Chưa học Javascript nên chưa đăng kí được đâu :|')"
+        >
+          Sign-up
+        </button>
+      </div>
+    </div>
+
+    <!-- Phần main chia làm 3 khối : -->
+    <!-- Khối 1: ảnh nền -->
+
+    <div class="body_2">
+      <div class="anhNen">
+        <audio class="nhacNe" src="./audio/amNhacVaCuocSong.mp3"></audio>
+        <img src="./images/anhNen.jpg" alt="Anh nền" onclick="batNhac(this)" />
+      </div>
+
+      <!-- Khối 2: ảnh ca sĩ  -->
+      <div class="singer">
+        <!-- khối sơn tùng đen vâu -->
+        <div class="tung_vau">
+          <audio class="nhacNe" src="./audio/hayTraoChoAnh.mp3"></audio>
+          <img
+            src="./images/sonTung.jpg"
+            alt="Sơn Tùng"
+            onclick="batNhac(this)"
+          />
+
+          <audio class="nhacNe" src="./audio/LoiNho.mp3"></audio>
+          <img
+            src="./images/denVau.jpg"
+            alt="Đen Vâu"
+            onclick="batNhac(this)"
+          />
+        </div>
+        <!-- khối jack trung tự -->
+        <div class="jack-trungTu">
+          <audio class="nhacNe" src="./audio/duoiTanCayKhoHoaNo.mp3"></audio>
+          <img
+            id="jack"
+            src="./images/jack.jpg"
+            alt="Jack"
+            onclick="batNhac(this)"
+          />
+          <audio class="nhacNe" src="./audio/vuaHanVuaYeu.mp3"></audio>
+          <img
+            id="trung_tu"
+            src="./images/trungTu.jpg"
+            alt="Trung Tu"
+            onclick="batNhac(this)"
+          />
+        </div>
+        <!-- Khối đạt g -->
+        <div class="dat-G_bichPhuong">
+          <audio class="nhacNe" src="./audio/conBuonKhongEm.mp3"></audio>
+          <img
+            id="datG"
+            src="./images/datG.jpg"
+            alt="Dat-G"
+            onclick="batNhac(this)"
+          />
+          <audio class="nhacNe" src="./audio/buaYeu.mp3"></audio>
+          <img
+            id="bichPhuong"
+            src="./images/bichPhuong.jpg"
+            alt="Bich phuong"
+            onclick="batNhac(this)"
+          />
+        </div>
+      </div>
+
+      <!-- khối văn bản chia làm 4 khối-->
+      <div class="vanBan">
+        <div class="common vanBan1"><span>Âm nhạc</span></div>
+        <div class="common vanBan2">
+          <span>
+            Ngôn ngữ của cảm xúc<br />
+            vượt qua mọi biên giới
+          </span>
+        </div>
+        <div class="common vanBan3">
+          <span>Chạm đến trái tim <br />qua từng nốt nhạc.</span>
+        </div>
+        <div class="common vanBan4">
+          <span>Nơi âm nhạc kể những<br />câu chuyện không lời.</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
