@@ -178,10 +178,10 @@ body {
     margin: 0px 5px 0px 15px;
   }
   .logo p {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
   .navUl a {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     padding: 2px 5px;
   }
   .navUl {
@@ -189,10 +189,10 @@ body {
     text-align: center;
   }
   .fa-brands {
-    margin-right: 2px;
+    margin-right: 3px;
   }
   .fa-solid {
-    margin-right: 2px;
+    margin-right: 3px;
   }
   .Sign_up button {
     padding: 5px 20px;
