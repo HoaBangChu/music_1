@@ -161,3 +161,70 @@ body {
 .common {
   margin-top: 15%;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-image: linear-gradient(90deg, #000000, #c89116);
+  }
+  .header {
+    display: grid;
+    grid-template-columns: 3fr 5fr 2fr;
+  }
+  .logo {
+    display: flex;
+    width: 100%;
+  }
+  .logo p {
+    font-size: 0.8rem;
+  }
+  .navUl a {
+    font-size: 0.6rem;
+  }
+  .navUl {
+    gap: 10px;
+    text-align: center;
+  }
+  .Sign_up button {
+    padding: 5px 20px;
+    font-size: 0.5rem;
+    width: 80px;
+  }
+
+  /* Anh nền */
+  .body_2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 5px;
+    box-sizing: border-box;
+  }
+  .anhNen {
+    display: flex;
+    align-items: center;
+  }
+  .anhNen img {
+    width: 100%;
+    height: 50%;
+  }
+  /* tung vâu */
+  .tung_vau {
+    display: flex;
+    gap: 25px;
+  }
+  .jack-trungTu {
+    display: flex;
+    gap: 0px;
+  }
+  .dat-G_bichPhuong #bichPhuong {
+    margin-left: 8%;
+  }
+  .dat-G_bichPhuong #datG {
+    margin-left: 15%;
+  }
+  /* vanBan */
+  .vanBan {
+    font-size: 0.7rem;
+  }
+  .vanBan1 {
+    font-size: 2rem;
+  }
+}
