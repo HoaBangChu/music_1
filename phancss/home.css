@@ -168,21 +168,31 @@ body {
   }
   .header {
     display: grid;
-    grid-template-columns: 3fr 5fr 2fr;
+    grid-template-columns: 2fr 5fr 2fr;
   }
   .logo {
     display: flex;
     width: 100%;
   }
+  .logo img {
+    margin: 0px 5px 0px 15px;
+  }
   .logo p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
   .navUl a {
     font-size: 0.6rem;
+    padding: 2px 5px;
   }
   .navUl {
     gap: 10px;
     text-align: center;
+  }
+  .fa-brands {
+    margin-right: 2px;
+  }
+  .fa-solid {
+    margin-right: 2px;
   }
   .Sign_up button {
     padding: 5px 20px;
