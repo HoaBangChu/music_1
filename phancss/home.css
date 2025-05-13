@@ -101,7 +101,11 @@ body {
 }
 .tung_vau {
   display: flex;
-  gap: 100px;
+  justify-content: space-between;
+  /* gap: 100px; */
+}
+.tung_vau #den {
+  margin-right: 36%;
 }
 .tung_vau img {
   width: 25%;

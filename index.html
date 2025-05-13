@@ -28,16 +28,22 @@
       <div class="nav">
         <ul class="navUl">
           <li>
-            <a href=""> <i class="fa-solid fa-house"></i> Home</a>
+            <a href="/index.html"> <i class="fa-solid fa-house"></i> Home</a>
           </li>
           <li>
-            <a href=""><i class="fa-solid fa-music"></i>Song</a>
+            <a href="/song.html"><i class="fa-solid fa-music"></i>Song</a>
           </li>
           <li>
-            <a href=""><i class="fa-brands fa-youtube"></i> Youtube</a>
+            <a
+              href="https://www.tiktok.com/@fuji81805/video/7487943084584570118?q=SUPER%20IDOL&t=1747145371023"
+              target="_blank"
+              ><i class="fa-solid fa-ranking-star"></i> #Trending</a
+            >
           </li>
           <li>
-            <a href=""><i class="fa-solid fa-file-audio"></i>Mp3</a>
+            <a href="" id="Themes" onclick="change('')"
+              ><i class="fa-solid fa-rotate"></i>Theme</a
+            >
           </li>
         </ul>
       </div>
@@ -73,6 +79,7 @@
 
           <audio class="nhacNe" src="./audio/LoiNho.mp3"></audio>
           <img
+            id="den"
             src="./images/denVau.jpg"
             alt="Đen Vâu"
             onclick="batNhac(this)"

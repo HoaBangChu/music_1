@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./phancss/reset.css" />
+    <link rel="stylesheet" href="./phancss/home.css" />
+    <link rel="stylesheet" href="./phancss/songcss.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <script src="./phanjs/songjs.js" defer></script>
+    <title>Song</title>
+  </head>
+  <body>
+    <div class="header">
+      <!-- Khối logo, mucsic station gọi chung là khối logoAll-->
+      <div class="logo">
+        <!-- Trong khối logo có khối logo và khối music station -->
+
+        <img src="./images/logo.png" alt="Logo" />
+
+        <p>Music Station</p>
+      </div>
+
+      <!-- Tiếp đến là khối nav -->
+      <div class="nav">
+        <ul class="navUl">
+          <li>
+            <a href="/index.html"> <i class="fa-solid fa-house"></i> Home</a>
+          </li>
+          <li>
+            <a href="/song.html"><i class="fa-solid fa-music"></i>Song</a>
+          </li>
+          <li>
+            <a
+              href="https://www.tiktok.com/@fuji81805/video/7487943084584570118?q=SUPER%20IDOL&t=1747145371023"
+              target="_blank"
+              ><i class="fa-solid fa-ranking-star"></i> #Trending</a
+            >
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-rotate"></i></i>Theme</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Nút Sign up -->
+      <div class="Sign_up">
+        <button
+          onclick="alert('Chào tình yêu nhé! Chưa học Javascript nên chưa đăng kí được đâu :|')"
+        >
+          Sign-up
+        </button>
+      </div>
+    </div>
+
+    <!-- phần ca sĩ  -->
+    <div class="box3">
+      <h1>#Sơn Tùng Tùng Sahur</h1>
+      <div class="box2">
+        <!-- hãy trao cho anh  -->
+        <div class="box1">
+          <img
+            src="./img_song/hayTraoChoAnh.jpg"
+            alt="Hãy trao cho anh"
+            onclick="batNhac(this)"
+          />
+          <audio class="nhacNe" src="./audio/hayTraoChoAnh.mp3"></audio>
+          <p onclick="batNhac(this)">Hãy trao cho anh</p>
+        </div>
+        <div class="box1">
+          <img src="./img_song/noiNayCoAnh.jpg" alt="Nơi này có anh" />
+          <audio
+            class="nhacNe"
+            src="./audio/NoiNayCoAnh-SonTungMTP-4772041.mp3"
+          ></audio>
+          <p onclick="batNhac(this)">Nơi này có anh</p>
+        </div>
+        <div class="box1">
+          <img src="./img_song/muonRoiMaSaoCon.jpg" alt="Muộn rồi mà sao còn" />
+          <audio class="nhacNe" src="./audio/MuonRoiMaSaoCon.mp3"></audio>
+          <p onclick="batNhac(this)">Muộn rồi mà sao còn</p>
+        </div>
+        <div class="box1">
+          <img src="./img_song/LacTroi.jpg" alt="Lạc Trôi" />
+          <audio
+            class="nhacNe"
+            src="./audio/LacTroi-SonTungMTP-4725907.mp3"
+          ></audio>
+          <p onclick="batNhac(this)">Lạc Trôi</p>
+        </div>
+        <div class="box1">
+          <img
+            src="./img_song/chungTa.jpg"
+            alt="Chúng Ta Không Thuộc Về Nhau"
+          />
+          <audio
+            class="nhacNe"
+            src="./audio/chungTaKhongThuocVeNhau.mp3"
+          ></audio>
+          <h2 onclick="batNhac(this)">
+            Chúng Ta Không Thuộc<br />
+            Về Nhau
+          </h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

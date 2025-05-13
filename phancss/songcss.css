@@ -1,0 +1,124 @@
+body {
+  background-image: linear-gradient(90deg, #000000, #c89116);
+}
+
+/* Thao tác với header */
+.header {
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 4fr 4fr 1fr;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 10%;
+  border-radius: 35px;
+  margin: 20px;
+}
+.logo p {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+.logo p:hover {
+  background: linear-gradient(135deg, #5efce8 10%, #736efe 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* vào phân nav */
+.nav {
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navUl {
+  display: flex;
+  gap: 50px;
+}
+.navUl a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.navUl a:hover {
+  background-image: linear-gradient(135deg, #fff720 10%, #3cd500 100%);
+}
+.fa-brands {
+  color: red;
+  margin: 5px;
+}
+.fa-solid {
+  color: black;
+  margin: 5px;
+}
+
+/* đánh vào button */
+.Sign_up {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: 10px 5px;
+}
+.Sign_up button {
+  color: White;
+  background-image: linear-gradient(90deg, #000000, #c89116);
+  padding: 10px 25px;
+  border-radius: 15px;
+  font-size: 25px;
+}
+.Sign_up button:hover {
+  background-image: linear-gradient(135deg, #fff720 10%, #3cd500 100%);
+}
+
+/* Thao tác khối ca sĩ  */
+.box3 {
+  text-align: center;
+}
+.box3 h1 {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 900;
+}
+.box3 h1:hover {
+  background: linear-gradient(135deg, #69ff97 10%, #00e4ff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  margin: 2%;
+}
+.box2 img {
+  width: 90%;
+  /* height: 100%; */
+  border-radius: 5%;
+}
+.box1 p {
+  font-size: 1.2rem;
+  color: white;
+  padding: 10px;
+  background-image: linear-gradient(90deg, #000000, #c89116);
+  border-radius: 40px;
+}
+.box1 p:hover {
+  background-image: linear-gradient(135deg, #a0fe65 10%, #fa016d 100%);
+}
+.box1 h2 {
+  padding: 3.6px;
+  background-image: linear-gradient(90deg, #000000, #c89116);
+  color: white;
+  font-size: 1rem;
+  border-radius: 40px;
+}
+.box1 h2:hover {
+  background-image: linear-gradient(135deg, #a0fe65 10%, #fa016d 100%);
+}
